@@ -31,3 +31,12 @@
 
 en:
   hello: "Hello world"
+  review_books:
+    home:
+      header: Welcome to the Sample App
+      content: This is the home page for the <a href="%{link}">Ruby on Rails Tutorial</a> sample application. 
+      sign_up: Sign up now!
+  shared:
+    error_messages:
+      count: The form contains %{count}.
+

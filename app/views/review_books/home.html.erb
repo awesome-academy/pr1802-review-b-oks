@@ -1,11 +1,7 @@
 <div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+  <h1><%= t ".header" %></h1>
 
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
+  <h2><%= t(".content", link: "http://www.railstutorial.org/").html_safe %></h2>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
