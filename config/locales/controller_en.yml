@@ -1,0 +1,8 @@
+en:
+  users:
+    welcome: Welcome to the Review Books
+    please: Please log in
+    profile: Profile updated
+    deleted: User deleted
+  sessions_controller:
+    Invalid: Invalid email/password combination
